@@ -1,0 +1,8 @@
+{
+  "name": "test",
+  "private": true,
+  "devDependencies": {
+    "readable-stream": "^2.0.5",
+    "vinyl-file": "^2.0.0"
+  }
+}
