@@ -27,4 +27,6 @@ stream
 
 vinyl.read('./package.json', {}).then(function (f) {
   stream.write(f)
+}).catch(function (err) {
+  console.log(err)
 });
